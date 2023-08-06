@@ -1,4 +1,4 @@
+
 mkdir dir1
-cd dir1
-echo "Hello">file2
-git add file2
+touch dir1/file2
+git add dir1
