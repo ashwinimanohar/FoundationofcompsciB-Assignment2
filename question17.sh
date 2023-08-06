@@ -5,6 +5,7 @@ mkdir dir3
 cd dir3
 touch bar
 touch bar_copy
+cd ..
 git add .
 git commit -m "file structure for main branch"
 git push
