@@ -11,6 +11,8 @@ git checkout -b branch1
 cd dir1
 mv dir2/foo foo
 cd ..
+git rm dir3/bar_copy
+git add dir3
 echo "hi">newfile1
 git add .
 git commit -m "Modify file structure for branch1"
