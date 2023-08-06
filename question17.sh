@@ -13,6 +13,7 @@ mv dir2/foo foo
 cd ..
 cd dir3
 git rm bar_copy
+git add dir3
 cd ..
 echo "hi">newfile1
 git add .
@@ -29,6 +30,7 @@ cd dir3
 touch newfile2
 cd ..
 rmdir /s /q dir3
+git add dir3
 git add .
 git commit -m "Modify file structure for branch2"
 git push --set-upstream origin branch2
