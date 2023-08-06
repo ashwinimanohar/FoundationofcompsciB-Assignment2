@@ -10,13 +10,13 @@ git commit -m "file structure for main branch"
 git push
 
 git checkout -b branch1
-cd dir1
-cd dir2
-touch foo1
-mv dir2/foo foo
-cd ..
 cd dir3
 git rm bar_copy
+cd ..
+cd dir1
+cd dir2
+mv dir2/foo foo
+cd ..
 cd ..
 touch newfile1
 git add .
