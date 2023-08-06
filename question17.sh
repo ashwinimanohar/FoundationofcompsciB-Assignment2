@@ -10,7 +10,10 @@ git push
 git checkout -b branch1
 cd dir1
 mv dir2/foo foo
-rm dir3/bar_copy
+cd ..
+cd dir3
+git rm bar_copy
+cd ..
 echo "hi">newfile1
 git add .
 git commit -m "Modify file structure for branch1"
@@ -25,7 +28,7 @@ mkdir dir3
 cd dir3
 touch newfile2
 cd ..
-git rm -r dir3
+rmdir /s /q dir3
 git add .
 git commit -m "Modify file structure for branch2"
 git push --set-upstream origin branch2
