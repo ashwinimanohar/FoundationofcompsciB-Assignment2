@@ -1,8 +1,10 @@
 cd git-practice-03
 git checkout main
 mkdir dir1/dir2/foo
-mkdir dir3/bar
-mkdir dir3/bar_copy
+mkdir dir3
+cd dir3
+touch bar
+touch bar_copy
 git add .
 git commit -m "file structure for main branch"
 git push
@@ -14,8 +16,6 @@ cd ..
 cd dir3
 git rm bar_copy
 git add bar_copy
-git commit -m "delete dir3/bar_copy"
-git push --set-upstream origin branch1
 cd ..
 echo "hi">newfile1
 git add .
