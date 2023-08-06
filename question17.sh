@@ -25,6 +25,9 @@ git push
 git checkout -b branch2
 cd dir1
 mv foo dir2/foo_modified
+mkdir dir3
+cd dir
+touch newfile2
 cd ..
 mv dir3/bar dir1
 git rm newfile1
