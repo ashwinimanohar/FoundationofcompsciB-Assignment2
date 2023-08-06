@@ -13,9 +13,10 @@ mv dir2/foo foo
 cd ..
 cd dir3
 rm bar_copy
-git add dir3
+git add bar_copy
 git commit -m "delete dir3/bar_copy"
 git push --set-upstream origin branch1
+cd ..
 echo "hi">newfile1
 git add .
 git commit -m "Modify file structure for branch1"
