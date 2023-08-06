@@ -33,7 +33,7 @@ cd ..
 git rm newfile1
 cd dir3
 git rm bar_copy
-git dir3
+git add dir3
 git add .
 git commit -m "Modify file structure for branch2"
 git push --set-upstream origin branch2
