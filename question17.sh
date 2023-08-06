@@ -12,7 +12,7 @@ cd dir1
 mv dir2/foo foo
 cd ..
 cd dir3
-rm bar_copy
+git rm bar_copy
 git add bar_copy
 git commit -m "delete dir3/bar_copy"
 git push --set-upstream origin branch1
