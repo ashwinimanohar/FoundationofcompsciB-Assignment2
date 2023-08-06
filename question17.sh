@@ -26,10 +26,6 @@ git checkout -b branch2
 cd dir1
 mkdir dir2
 mv foo dir2/foo_modified
-mkdir dir3
-cd dir3
-touch newfile2
-cd ..
 cd ..
 git rm newfile1
 mv dir3/bar_copy dir1/dir3/newfile2
