@@ -34,6 +34,7 @@ cd ..
 git rm newfile1
 cd dir3
 git rm bar
+git rm bar_copy
 cd ..
 git add .
 git commit -m "Modify file structure for branch2"
