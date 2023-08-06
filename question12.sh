@@ -1,3 +1,4 @@
 git checkout branch2
-git restore file4
+git stash pop
+git add .
 git commit -m "Restore and commit changes to file4"
