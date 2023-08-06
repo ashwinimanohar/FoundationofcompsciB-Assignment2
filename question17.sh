@@ -29,7 +29,6 @@ mkdir dir3
 cd dir
 touch newfile2
 cd ..
-mv dir3/bar dir1
 git rm newfile1
 git add .
 git commit -m "Modify file structure for branch2"
