@@ -11,11 +11,8 @@ git push
 
 git checkout -b branch1
 cd dir1
-cd dir2
-git rm foo
-cd ..
-git rm -rf dir2
 touch foo
+git rm -rf dir2
 cd ..
 cd dir3
 git rm bar_copy
