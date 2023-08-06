@@ -25,7 +25,6 @@ git push
 git checkout -b branch2
 cd dir1
 mv foo dir2/foo_modified
-cd ..
 touch foo1
 mv dir3/bar dir1/dir3/newfile2
 git add .
