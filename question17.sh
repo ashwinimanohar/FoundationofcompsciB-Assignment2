@@ -24,7 +24,6 @@ git push
 
 git checkout -b branch2
 cd dir1
-mkdir dir2
 mv foo dir2/foo_modified
 cd ..
 git rm newfile1
@@ -34,4 +33,4 @@ git rm bar
 cd ..
 git add .
 git commit -m "Modify file structure for branch2"
-git push --set-upstream origin branch2
+git push 
