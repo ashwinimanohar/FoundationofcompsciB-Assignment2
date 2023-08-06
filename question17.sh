@@ -23,19 +23,17 @@ git commit -m "Modify file structure for branch1"
 git push --set-upstream origin branch1
 
 git checkout -b branch2
-git rm -r dir3
-git add dir3
-git commit -m "delete dir3"
-git push --set-upstream origin branch2
 cd dir1
 mkdir dir2
 mv foo dir2/foo_modified
-cd ..
-git rm newfile1
 mkdir dir3
 cd dir3
 touch newfile2
 cd ..
+git rm newfile1
+cd dir3
+git rm bar_copy
+git dir3
 git add .
 git commit -m "Modify file structure for branch2"
 git push --set-upstream origin branch2
