@@ -10,7 +10,7 @@ git commit -m "file structure for main branch"
 git push
 
 git checkout -b branch1
-mv dir1/dir2/foo dir1/foo
+move dir1/dir2/foo dir1/foo
 cd ..
 cd dir3
 git rm bar_copy
