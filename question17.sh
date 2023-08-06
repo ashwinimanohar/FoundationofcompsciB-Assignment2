@@ -30,6 +30,7 @@ git push --set-upstream origin branch2
 cd dir1
 mkdir dir2
 mv foo dir2/foo_modified
+cd ..
 git rm newfile1
 mkdir dir3
 cd dir3
