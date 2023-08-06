@@ -12,7 +12,7 @@ git push
 git checkout -b branch1
 cd dir1
 cd dir2
-git rm -r foo
+git rm foo
 cd ..
 cd ..
 cd dir3
