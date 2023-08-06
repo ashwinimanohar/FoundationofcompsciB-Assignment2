@@ -32,7 +32,7 @@ touch newfile2
 cd ..
 cd ..
 git rm newfile1
-mv dir3/bar_copy dir1/dir3/newfile1
+mv dir3/bar_copy dir1/dir3/newfile2
 cd dir3
 git rm bar
 cd ..
