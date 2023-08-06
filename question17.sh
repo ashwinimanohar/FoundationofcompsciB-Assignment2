@@ -25,8 +25,11 @@ mkdir dir3
 cd dir3
 touch newfile2
 cd ..
-rm dir3/bar
-rm dir3/bar_copy
+cd dir3
+git rm bar
+git rm bar_copy
+cd ..
+git rm dir3
 git add .
 git commit -m "Modify file structure for branch2"
 git push --set-upstream origin branch2
