@@ -26,6 +26,7 @@ git checkout -b branch2
 cd dir1
 mv foo dir2/foo_modified
 mkdir dir3
+cd dir3
 touch newfile2
 cd ..
 git add .
