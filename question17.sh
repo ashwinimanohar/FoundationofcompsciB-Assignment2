@@ -11,7 +11,7 @@ git push
 
 git checkout -b branch1
 cd dir1
-git mv dir2/foo foo
+mv dir2/foo foo
 cd ..
 touch newfile1
 git add .
