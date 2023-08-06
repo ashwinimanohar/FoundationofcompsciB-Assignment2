@@ -11,7 +11,12 @@ git push
 
 git checkout -b branch1
 cd dir1
+cd dir2
+touch foo1
 mv dir2/foo foo
+cd ..
+cd dir3
+git rm bar_copy
 cd ..
 touch newfile1
 git add .
