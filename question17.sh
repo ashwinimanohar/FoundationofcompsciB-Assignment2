@@ -30,6 +30,7 @@ mkdir dir3
 cd dir3
 touch newfile2
 cd ..
+cd ..
 git rm newfile1
 cd dir3
 git rm bar_copy
