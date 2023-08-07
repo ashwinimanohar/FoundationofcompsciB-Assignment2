@@ -1,23 +1,16 @@
-cd git-practice-03
-git checkout main
-mkdir dir1/dir2/foo
-mkdir dir3
 cd dir3
-touch bar
-touch bar_copy
+git branch branch1
+git branch branch2
+cd dir3
+cp bar bar_copy
 cd ..
 git add .
 git commit -m "file structure for main branch"
 git push
 
 git checkout -b branch1
-cd dir1
-mv dir2/foo foo
-cd ..
-cd dir3
-git rm bar_copy
-cd ..
 touch newfile1
+mv dir1/dir2/foo dir1/foo
 git add .
 git commit -m "Modify file structure for branch1"
 git push
