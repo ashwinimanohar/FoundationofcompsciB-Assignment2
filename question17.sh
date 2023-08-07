@@ -24,10 +24,15 @@ git push
 
 git checkout -b branch2
 cd dir1
-mv foo dir2/foo_modified
+cd dir2
+mv foo foo_modified
 cd ..
-git rm newfile1
-mv -R dir3/bar dir1/dir3/newfile2
+cd ..
+cd dir3
+rm bar
+touch newfile2
+cd ..
+mv dir3 dir1
 git add .
 git commit -m "Modify file structure for branch2"
 git push
