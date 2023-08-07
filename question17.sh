@@ -29,6 +29,11 @@ cd ..
 git rm newfile1
 mv dir3/bar dir3/newfile2
 mv -f dir3/newfile2 dir1/dir3
+cd dir1
+cd dir3
+touch newfile2
+cd ..
+cd ..
 git add .
 git commit -m "Modify file structure for branch2"
 git push origin branch2
