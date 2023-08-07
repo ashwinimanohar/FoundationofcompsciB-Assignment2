@@ -27,7 +27,7 @@ cd dir1
 mv foo dir2/foo_modified
 cd ..
 git rm newfile1
-mv dir3/bar dir1/dir3/newfile2
+mv dir3/bar dir3/newfile2
 git add .
 git commit -m "Modify file structure for branch2"
 git push origin branch2
