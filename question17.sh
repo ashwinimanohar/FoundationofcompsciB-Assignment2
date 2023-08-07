@@ -29,7 +29,7 @@ cd ..
 git rm newfile1
 mv dir3/bar dir3/newfile2
 cd dir1
-mkdir -p dir1/dir3
+mkdir dir3
 mv dir3/newfile2 dir1/dir3/newfile2
 git add dir1/dir3/newfile2
 cd ..
